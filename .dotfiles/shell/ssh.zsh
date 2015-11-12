@@ -5,6 +5,11 @@
 #
 #-------------------------------------------------------------------------------
 
+# Common Hosts
+alias imac="ssh phatblat@imac.local"
+alias buildsrvpro="ssh admin@buildsrvpro.co.kp.org"
+
+# SSH Utility Aliases
 alias sshcopypub='pbcopy < ~/.ssh/id_rsa.pub'
 
 function sshkeyfingerprint() {
@@ -41,5 +46,3 @@ function sshupload() {
     https://api.github.com/user/keys
 }
 alias sshupload=sshupload
-
-alias buildsrvpro="ssh admin@buildsrvpro.co.kp.org"
