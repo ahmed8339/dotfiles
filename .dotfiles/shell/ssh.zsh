@@ -6,8 +6,9 @@
 #-------------------------------------------------------------------------------
 
 # Common Hosts
-alias imac="ssh phatblat@imac.local"
-alias buildsrvpro="ssh admin@buildsrvpro.co.kp.org"
+alias imac='ssh phatblat@imac.local'
+alias buildsrvpro='ssh admin@buildsrvpro.co.kp.org'
+alias mini='ssh phatblat@mini.log-g.co'
 
 # SSH Utility Aliases
 alias sshcopypub='pbcopy < ~/.ssh/id_rsa.pub'
