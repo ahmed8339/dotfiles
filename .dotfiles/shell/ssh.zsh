@@ -11,6 +11,7 @@ alias buildsrvpro='ssh admin@buildsrvpro.co.kp.org'
 alias mini='ssh phatblat@mini.log-g.co'
 
 # SSH Utility Aliases
+alias sshshowpub='cat ~/.ssh/id_rsa.pub'
 alias sshcopypub='pbcopy < ~/.ssh/id_rsa.pub'
 
 function sshkeyfingerprint() {
