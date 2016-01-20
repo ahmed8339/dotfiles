@@ -14,7 +14,7 @@ alias mini='ssh phatblat@mini.log-g.co'
 alias sshshowpub='cat ~/.ssh/id_rsa.pub'
 alias sshcopypub='pbcopy < ~/.ssh/id_rsa.pub'
 
-function sshkeyfingerprint() {
+function sshkeyfingerprint {
   file=~/.ssh/id_rsa.pub;
   if (($+1)); then
     file="$1"
@@ -27,7 +27,7 @@ function sshkeyfingerprint() {
 alias sshkeyfingerprint=sshkeyfingerprint
 
 alias sshnewkey=sshnewkey
-function sshnewkey() {
+function sshnewkey {
   if (($+1)); then
     ssh-keygen -t rsa -C "$1"
   else
@@ -35,7 +35,7 @@ function sshnewkey() {
   fi
 }
 
-function sshupload() {
+function sshupload {
   # Upload default SSH key to GitHub
   echo "Uploading SSH public key to GitHub"
   echo -n "GitHub OTP code: "
