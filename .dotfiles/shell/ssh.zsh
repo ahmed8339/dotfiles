@@ -7,8 +7,9 @@
 
 # Common Hosts
 alias imac='ssh phatblat@imac.local'
-alias buildsrvpro='ssh admin@buildsrvpro.co.kp.org'
 alias mini='ssh phatblat@mini.log-g.co'
+alias buildsrvpro='ssh admin@buildsrvpro.co.kp.org'
+alias mobot2='ssh admin@RMGVIMACSVR002.co.kp.org'
 
 # SSH Utility Aliases
 alias sshshowpub='cat ~/.ssh/id_rsa.pub'
