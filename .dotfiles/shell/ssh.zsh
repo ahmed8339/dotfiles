@@ -8,6 +8,7 @@
 # Common Hosts
 alias imac='ssh phatblat@imac.local'
 alias mini='ssh phatblat@mini.log-g.co'
+alias rundmg='ssh ben@rundmg.co.kp.org'
 alias buildsrvpro='ssh admin@buildsrvpro.co.kp.org'
 alias buildsrvpro2='ssh admin@buildsrvpro.ptc.ca.kp.org'
 alias mobot2='ssh admin@RMGVIMACSVR002.co.kp.org'
