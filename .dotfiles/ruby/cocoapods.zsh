@@ -22,4 +22,8 @@ alias bpuru='bundle exec pod update'
 alias pru='pod repo update'
 alias bepru='bundle exec pod repo update'
 
+# Maintenance
+alias listpodrepos='pushd ~/.cocoapods/repos > /dev/null && \
+  for dir in *; do echo $dir; pushd $dir > /dev/null; git remote -v; popd > /dev/null; done && \
+  popd > /dev/null'
 alias clearcpcache='rm -rf "${HOME}/Library/Caches/CocoaPods"'
