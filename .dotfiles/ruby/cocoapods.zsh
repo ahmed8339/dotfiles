@@ -10,9 +10,12 @@ alias pi='pod install'
 alias piru='pod install --repo-update'
 alias bpi='bundle exec pod install'
 alias bpiru='bundle exec pod install --repo-update'
-
 alias piv='pod install --verbose'
 alias bpiv='bundle exec pod install --verbose'
+
+# Outdated
+# po - conflicts with popd short alias
+#alias po='pod outdated --no-repo-update'
 
 # Update
 alias pu='pod update --no-repo-update'
