@@ -7,6 +7,7 @@
 
 # Install
 alias pi='pod install'
+alias piru='pod install --repo-update'
 alias bpi='bundle exec pod install'
 alias bpiru='bundle exec pod install --repo-update'
 
