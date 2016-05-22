@@ -26,6 +26,8 @@ alias bpuru='bundle exec pod update'
 # Repo Update
 alias pru='pod repo update'
 alias bpru='bundle exec pod repo update'
+alias prum='pod repo update master'
+alias bprum='bundle exec pod repo update master'
 
 # Maintenance
 alias listpodrepos='pushd ~/.cocoapods/repos > /dev/null && \
