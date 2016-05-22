@@ -16,6 +16,7 @@ alias bpiv='bundle exec pod install --verbose'
 # Outdated
 # po - conflicts with popd short alias
 #alias po='pod outdated --no-repo-update'
+alias bpo='bundle exec pod outdated --no-repo-update'
 
 # Update
 alias pu='pod update --no-repo-update'
