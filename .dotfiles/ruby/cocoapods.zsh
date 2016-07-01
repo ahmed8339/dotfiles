@@ -30,6 +30,10 @@ alias bpru='bundle exec pod repo update'
 alias prum='pod repo update master'
 alias bprum='bundle exec pod repo update master'
 
+# Lint
+alias pll='pod lib lint'
+alias pllvnc='pod lib lint --verbose --no-clean'
+
 # Maintenance
 alias listpodrepos='pushd ~/.cocoapods/repos > /dev/null && \
   for dir in *; do
