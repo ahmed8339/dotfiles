@@ -13,6 +13,7 @@ alias buildsrvpro='ssh admin@buildsrvpro.co.kp.org'
 alias buildsrvpro2='ssh admin@buildsrvpro.ptc.ca.kp.org'
 alias mobot2='ssh admin@RMGVIMACSVR002.co.kp.org'
 alias mobot3='ssh admin@RMGVIMACSVR003.co.kp.org'
+alias mobot4='ssh admin@RMGVIMACSVR004.co.kp.org'
 alias realmdev='ssh f978034@cskpcloudxn0790.cloud.kp.org'
 
 # SSH Utility Aliases
