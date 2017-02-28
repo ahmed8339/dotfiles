@@ -8,6 +8,7 @@
 # Install
 alias pv='pod --version'
 alias pi='pod install'
+alias pil='LOCAL=1 pod install'
 alias piru='pod install --repo-update'
 alias bpi='bundle exec pod install'
 alias bpiru='bundle exec pod install --repo-update'
