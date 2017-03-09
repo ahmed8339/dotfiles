@@ -34,6 +34,7 @@ alias bprum='bundle exec pod repo update master'
 # Lint
 alias pll='pod lib lint'
 alias pllvnc='pod lib lint --verbose --no-clean'
+alias lintlib='pod lib lint --sources=git@github.kp.org:internal-pods/specs,git@github.kp.org:mirrored-pods/specs,git@github.kp.org:internal-pods/development-specs,git@github.kp.org:F978034/KPMobileSpecs --use-libraries --private --allow-warnings'
 
 # Maintenance
 alias listpodrepos='pushd ~/.cocoapods/repos > /dev/null && \
