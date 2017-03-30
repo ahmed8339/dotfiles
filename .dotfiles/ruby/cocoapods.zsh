@@ -22,6 +22,7 @@ alias bpo='bundle exec pod outdated --no-repo-update'
 
 # Update
 alias pu='pod update --no-repo-update'
+alias pul='LOCAL=1 pod update'
 alias bpu='bundle exec pod update --no-repo-update'
 alias bpuru='bundle exec pod update'
 
