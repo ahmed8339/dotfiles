@@ -5,6 +5,8 @@
 #
 #-------------------------------------------------------------------------------
 
+lj info 'shell/ssh.zsh'
+
 # Common Hosts
 alias imac='ssh phatblat@imac.local'
 alias mini='ssh phatblat@mini.log-g.co'

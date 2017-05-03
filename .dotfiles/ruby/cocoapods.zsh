@@ -5,6 +5,8 @@
 #
 #-------------------------------------------------------------------------------
 
+lj info 'ruby/cocoapods.zsh'
+
 # Install
 alias pv='pod --version'
 alias pi='pod install'
