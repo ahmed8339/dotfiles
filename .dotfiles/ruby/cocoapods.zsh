@@ -16,8 +16,8 @@ alias piv='pod install --verbose'
 alias bpiv='bundle exec pod install --verbose'
 
 # Outdated
-# po - conflicts with popd short alias
-#alias po='pod outdated --no-repo-update'
+# po - conflicts with omz alias (redefined in shell/antigen.zsh)
+alias po='pod outdated --no-repo-update'
 alias bpo='bundle exec pod outdated --no-repo-update'
 
 # Update
