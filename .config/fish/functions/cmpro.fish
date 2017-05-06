@@ -1,5 +1,5 @@
-
-# null
+# 
 function cmpro
-    ssh admin@cmpro.ptc.ca.kp.org
+    ssh admin@cmpro.ptc.ca.kp.org $argv
 end
+

@@ -1,5 +1,5 @@
-
-# null
+# 
 function imac
-    ssh phatblat@imac.local
+    ssh phatblat@imac.local $argv
 end
+

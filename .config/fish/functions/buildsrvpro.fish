@@ -1,5 +1,5 @@
-
-# null
+# 
 function buildsrvpro
-    ssh admin@buildsrvpro.co.kp.org
+    ssh admin@buildsrvpro.co.kp.org $argv
 end
+

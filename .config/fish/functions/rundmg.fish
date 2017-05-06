@@ -1,5 +1,5 @@
-
-# null
+# 
 function rundmg
-    ssh ben@rundmg.co.kp.org
+    ssh ben@rundmg.co.kp.org $argv
 end
+
