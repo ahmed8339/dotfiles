@@ -1,3 +1,4 @@
+# cd prefixed with builtin.
 function popd --description 'Pop directory from the stack and cd to it'
     if count $argv >/dev/null
         switch $argv[1]
@@ -8,7 +9,7 @@ function popd --description 'Pop directory from the stack and cd to it'
     end
 
     if test $dirstack[1]
-        cd $dirstack[1]
+        builtin cd $dirstack[1]
     else
         printf (_ "%s: Directory stack is empty…\n") popd 1>&2
         return 1

@@ -1,3 +1,4 @@
+# cd prefixed with builtin.
 function pushd --description 'Push directory to stack'
     if count $argv >/dev/null
         # check for --help
@@ -31,7 +32,7 @@ function pushd --description 'Push directory to stack'
 
         # alter the top of dirstack and move to directory
         set -g dirstack[1] $top_dir
-        cd $next_dir
+        builtin cd $next_dir
         return
     end
 
@@ -63,7 +64,7 @@ function pushd --description 'Push directory to stack'
 
             # now reconstruct dirstack and change directory
             set -g dirstack $stack[2..(count $stack)]
-            cd $stack[1]
+            builtin cd $stack[1]
         end
 
         # print the new stack
@@ -73,5 +74,5 @@ function pushd --description 'Push directory to stack'
 
     # argv[1] is a directory
     set -g dirstack $PWD $dirstack
-    cd $argv[1]
+    builtin cd $argv[1]
 end
