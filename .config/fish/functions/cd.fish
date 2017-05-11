@@ -1,5 +1,6 @@
 # Customized to emulate pushd.
 function cd --description 'Change directory'
+    echo "cd function"
     set -l MAX_DIR_HIST 25
 
     if test (count $argv) -gt 1
@@ -37,7 +38,7 @@ function cd --description 'Change directory'
 
         # Update the dirstack to simulate pushd
         # https://github.com/fish-shell/fish-shell/issues/3697#issuecomment-270530083
-        set -g dirstack (pwd) $dirstack
+        set -g dirstack $PWD $dirstack
     end
 
     return $cd_status
