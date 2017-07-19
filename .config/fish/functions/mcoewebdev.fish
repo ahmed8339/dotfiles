@@ -1,4 +1,4 @@
 # Connect to mcoewebdev using SSH.
 function mcoewebdev
-    ssh y815573@cskpcloudxn0608.cloud.kp.org $argv
+    ssh f978034@cskpcloudxn0608.cloud.kp.org $argv
 end
