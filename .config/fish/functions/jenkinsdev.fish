@@ -1,4 +1,4 @@
-# Connect to Jenkins Dev using SSH.
-function jenkinsdev
-    ssh f978034@cskpcloudxp1604.cloud.kp.org $argv
+function jenkinsdev \
+        --description="SSH Jenkins DEV"
+    ssh f978034@cskpcloudxp2573.cloud.kp.org $argv
 end
